@@ -1,0 +1,222 @@
+header {
+    text-align: center;
+    margin: 1%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+nav {
+    background-color: rgb(82, 45, 34);
+    padding-top: 6px;
+    padding-bottom: 0px;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.5em;
+    max-width: 100%;
+    height: 35px;
+    line-height: 30px;
+}
+
+a {
+    color: white;
+}
+
+.feature {
+    display: block;
+    margin: 0px auto;
+    width: 100%;
+    height: auto;
+}
+
+h1 {
+    font-family: 'Lobster', cursive;
+    font-size: 6em;
+    color:rgb(44, 22, 15);
+}
+
+h1 img {
+    vertical-align: middle;
+    display: inline;
+}
+
+section {
+    font-family: 'Roboto', sans-serif;
+    background-color: rgb(82, 45, 34);
+    padding: 1em 2em;
+    max-width: 100%;
+    color: rgb(255, 255, 255);
+}
+
+form {
+    font-family: 'Roboto', sans-serif;
+    background-color: rgb(82, 45, 34);
+    padding: 1em 2em;
+    max-width: 100%;
+    color: rgb(255, 255, 255);
+}
+
+label {
+    float: left;
+    display: block;
+    text-align: right;
+    width: 8em;
+    padding-right: 1.5em;
+}
+
+.labels {
+    margin: auto;
+    width: 50%;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+
+input, textarea {
+    margin-bottom: 1em;
+}
+
+#submit {
+    margin-left: 45%;
+    border-radius: 4px;
+    font-size: 1em;
+    padding: 0.2em 0.5em;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    background-color: rgb(255, 255, 255);
+    border: none;
+    font-family: 'Roboto', sans-serif;
+    color:rgb(82, 45, 34);
+}
+
+
+footer {
+    margin: 2%;
+    font-size: .60em;
+    text-align: center;
+    font-style: italic;
+    padding: 1em;
+    border-top: solid 2px rgb(44,22,15);
+}
+
+body {
+    background-color: rgb(245, 221, 190);
+    margin: 0 10%;
+    background-image: url("images/cafe_transparent.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    padding: 2em;
+}
+
+footer a {
+    color: rgb(0, 0, 0);
+}
+
+#wrapper {
+    width: 90%;
+    margin-right: auto;
+    margin-left: auto;
+    min-width: 900px;
+    max-width: 1280px;
+}
+
+nav a {
+    text-decoration: none;
+}
+
+h4 {
+    background-color: rgb(245, 221, 190);
+    font-size: 1.2em;
+    padding: .2em;
+    padding-left: .5em;
+    color: rgb(44, 22, 15);
+}
+
+h3, h2 {
+    color: rgb(245, 221, 190);
+}
+
+#homehero {
+    background-size: cover;
+    background-repeat: no-repeat;
+    max-width: 100%;
+}
+
+header, nav, main, footer {
+    display: block;
+}
+
+nav ul {
+    list-style-type: none;
+    padding-top: 0;
+    vertical-align: baseline;
+    margin-top: 0;
+}
+
+nav li {
+    display: inline;
+    padding-right: 50px;
+    padding-top: 2px;
+	padding-bottom: 0;
+    margin-top: 0;
+}
+
+nav a:link {
+    color: rgb(255, 255, 255);
+}
+
+nav a:visited {
+    color: rgb(245, 221, 190);
+}
+
+nav a:hover {
+    color: rgb(44, 22, 15);
+}
+
+h1 a {
+    text-decoration: none;
+    color:rgb(44, 22, 15)
+}
+
+#mobile {
+	display: none;
+}
+
+#desktop {
+	display: inline;
+}
+
+@media only screen and (max-width: 1024px) {
+	body {margin: 0; background-image: none;}
+    header {height: auto; margin-bottom: 0;}
+    header img {display: inline;}
+	#wrapper {width: auto; min-width: 0; margin: 0; padding: 0; box-shadow: none;}
+	h1 {margin-top: 0; margin-bottom: 0.3em; font-size: 4.5em;}
+	nav {float: none; width: auto; padding-top: 0; font-size: 1.3em;}
+	nav li {display: inline-block; padding-top: 2.5px;}
+	nav a {padding: 1em; width: 8em; font-weight: bold; border-style: none;}
+	nav ul {padding: 0; margin: 0;}
+	main {margin: 0; font-size: 90%;}
+	.feature {margin: 0; padding: 0;}
+}
+
+@media only screen and (max-width: 768px) {
+	header {height: auto; padding-bottom: 18px; margin-bottom: 0; margin-top:0;}
+	header img {display: inline; width: 80px; height: auto;}
+	h1 {font-size: 4.2em; text-align: center; padding-left: 0; padding-top: 0; padding-bottom: 0; overflow: visible; height: auto; word-wrap:break-word;}
+	nav {margin: 0;  height: auto;}
+	nav a {display: block; padding: 0.2em; width: auto; text-align: center;}
+	nav li {display: block; padding: 0; margin: 0;}
+	main {padding-top: 1px;}
+	h2 {padding: 0.5em, 0, 0, 0.5em;}
+	.details {padding-left: 0; padding-right: 0;}
+	.feature {height: auto; margin: 0; padding: 0;}
+	.floatleft {padding-left: 0.5em; padding-right: 0.5em;}
+	#mobile {display: inline;}
+	#desktop {display: none;}
+    .labels {margin: auto; width: 70%;}
+	}
